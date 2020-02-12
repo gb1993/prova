@@ -1,0 +1,9 @@
+import {pergunta} from './pergunta.model'
+
+export const perguntas: pergunta[] = [
+    {pergunta: "Onde chega o arquivo para importar a NF e qual sua extensão ?", resposta: "E-email e XML respectivamente.", resposta1: "painel e XML respectivamente.", resposta2: "Físicamente e PDF respecitivamente.", resposta3: "XML e PDF respectivamente."},
+    {pergunta: "Caso seja necessário cancelar uma venda lançada no TEF devido algum erro operacional, qual o procedimento devemos seguir ?", resposta: "Cancelar e venda somente.", resposta1: "Estornar a venda somente.", resposta2: "Cacncelar a venda e estornar no TEF.", resposta3: "Cancelar a venda e cobrar no POS."},
+    {pergunta: "O sistema caiu durante a finalização da compra feita no TEF e não se sabe se foi efetuada a cobrança no cartão do cliente, no entanto, o cliente alega que recebeu uma mensagem em seu aplicativo do banco que o valor foi debitado. Nessa situação, qual o procedimento correto a ser feito operador ?", resposta: "Cobrar o POS por via das dúvidas.", resposta1: "Verificar o status da venda no SITEF e confirmar a venda caso esteja pendente.", resposta2: "Consultar o setor financeiro.", resposta3: "Deixar o cliente levar o produto devido a notificação do aplicativo do banco dele."},
+    {pergunta: "A venda só é totalmente concluída quando...", resposta: "O cliente recebe uma notificação de confirmação da transação no aplicativo do banco dele.", resposta1: "Quando o sistema mostra mensagem de venda concluida com sucesso.", resposta2: "É emitida a NFCE e comprovante do cartão do cliente.", resposta3: "Quando o cliente digita a senha no TEF."},
+    {pergunta: "Qual o prazo de cancelamento de um venda sistemicamente permitido pelo SEFAZ ?", resposta: "24 Horas.", resposta1: "30 minutos.", resposta2: "1 Hora.", resposta3: "Indeterminado."}
+] 
